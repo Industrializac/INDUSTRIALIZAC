@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDUSTRIALIZAC</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #e74017; color: white; padding: 40px 20px; text-align: left; display: flex; align-items: center; gap: 20px; }
+    nav { background-color: #b52f10; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #e74017; }
+    footer { background-color: #222; color: white; text-align: center; padding: 20px; }
+    .services ul, .clients ul { list-style: square; padding-left: 20px; }
+    .contact p { margin: 5px 0; }
+    .banner { background: #f8f8f8; padding: 20px; text-align: center; }
+    .logo { max-width: 150px; margin-bottom: 0; }
+    .header-text { flex: 1; }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: background-color 0.3s;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+    .whatsapp-button img {
+      width: 20px;
+      height: 20px;
+    }
+    @media (max-width: 600px) {
+      .whatsapp-button {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+      .whatsapp-button img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="PRIMER%20LOGO.jpg" alt="Logo INDUSTRIALIZAC" class="logo">
+    <div class="header-text">
+      <h1>INDUSTRIALIZAC</h1>
+      <p><em>"La seguridad es de todos y para todos"</em></p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#quienes">¿Quiénes somos?</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="banner">
+    <h2>Soluciones integrales en Seguridad Industrial</h2>
+    <p>Capacitación, auditorías SST, dictámenes técnicos y equipo de protección personal.</p>
+  </section>
+
+  <section id="quienes">
+    <h2>¿Quiénes somos?</h2>
+    <p>INDUSTRIALIZAC es una empresa ubicada en Zacatecas, especializada en seguridad industrial. Ofrecemos servicios integrales a toda la industria con enfoque profesional, normativo y humano.</p>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Capacitación en seguridad y salud en el trabajo</li>
+      <li>Auditorías internas SST</li>
+      <li>Dictámenes estructurales, eléctricos y de gas LP</li>
+      <li>Venta de equipo de protección personal (EPP)</li>
+    </ul>
+  </section>
+
+  <section id="clientes" class="clients">
+    <h2>Clientes y sectores atendidos</h2>
+    <ul>
+      <li>Constructoras</li>
+      <li>Minería</li>
+      <li>Industrias manufactureras</li>
+      <li>Gobierno y sector educativo</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <p><strong>Email:</strong> industrializac@gmail.com</p>
+    <p><strong>Teléfono:</strong> 492 869 2382</p>
+    <p><strong>Ubicación:</strong> Zacatecas, México</p>
+  </section>
+
+  <a href="https://wa.me/524928692382?text=Hola%2C%20estoy%20interesado%20en%20los%20servicios%20de%20seguridad%20industrial%20de%20INDUSTRIALIZAC." class="whatsapp-button" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+    WhatsApp
+  </a>
+
+  <footer>
+    <p>&copy; 2025 INDUSTRIALIZAC. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
